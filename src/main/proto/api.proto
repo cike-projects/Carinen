@@ -1,8 +1,8 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "io.grpc.examples.routeguide";
-option java_outer_classname = "RouteGuideProto";
+option java_package = "io.cike.carinen.grpc";
+option java_outer_classname = "NamingServerProto";
 option objc_class_prefix = "RTG";
 
 package routeguide;

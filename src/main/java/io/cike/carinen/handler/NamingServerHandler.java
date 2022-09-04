@@ -1,10 +1,9 @@
 package io.cike.carinen.handler;
 
-import io.cike.carinen.server.NamingServer;
-import io.grpc.examples.routeguide.InstanceInfo;
-import io.grpc.examples.routeguide.NamingServerGrpc;
-import io.grpc.examples.routeguide.ServiceInfo;
-import io.grpc.examples.routeguide.TODO;
+import io.cike.carinen.grpc.InstanceInfo;
+import io.cike.carinen.grpc.NamingServerGrpc;
+import io.cike.carinen.grpc.ServiceInfo;
+import io.cike.carinen.grpc.TODO;
 import io.grpc.stub.StreamObserver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

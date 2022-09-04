@@ -1,9 +1,8 @@
 package io.cike.carinen.handler;
 
+import io.cike.carinen.grpc.InstanceInfo;
+import io.cike.carinen.grpc.NamingServerGrpc;
 import io.grpc.Channel;
-import io.grpc.StatusRuntimeException;
-import io.grpc.examples.routeguide.InstanceInfo;
-import io.grpc.examples.routeguide.NamingServerGrpc;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
